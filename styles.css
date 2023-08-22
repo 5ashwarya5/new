@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.new {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(239, 136, 188);
+    box-shadow: 10px 10px 10px rgb(220, 61, 157);
+}
+
+table {
+    width: 100%;
+    border: 20px;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+
+}
+
+th {
+    background-color: #d792e9;
+}
+
+.correlation {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+#correlationResult {
+    font-weight: bold;
+}
+
+header {
+    background-color: #6e8ded;
+    padding: 2px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(14, 7, 76);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(217, 153, 220);
+    color: black;
+}
+
+.correlationsection {
+    background-color: #93abf1;
+    box-shadow: 10px 10px 10px rgb(14, 7, 76);
+    border: 10px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.result {
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.answer {
+    font-weight: bold;
+}

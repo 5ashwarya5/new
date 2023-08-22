@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Management of Securities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h3>PORTFOLIO MANAGEMENT OF SECURITIES</h1>
+            <nav>
+                <ul>
+                    <li><button><a href="/">Home</a></li></button>
+                    <li><button><a href="/">Securities</a></li></button>
+                    <li><button><a href="/">Transactions</a></li></button>
+                    <li><button><a href="/">Returns</a></li></button>
+                </ul>
+            </nav>
+    </header>
+    <div class="container">
+        <h1>Management of Securities</h1>
+        <table id="securitiesTable">
+            <tr>
+                <th>Name</th>
+                <th>Symbol</th>
+                <th>Opening Price (in 2023 (as on 2023-07-10))</th>
+                <th>Closing Price (in 2023 (as on 2023-07-10))</th>
+                <th>Annual Return (in 2023)</th>
+            </tr>
+        </table>
+    </div>
+    <div class="correlationsection">
+        <h1>Correlation of Securities</h1>
+        <div class="portfolio">
+            <p>List of Securities:</p>
+            <ul id="securityList">
+
+            </ul>
+        </div>
+        <div class="correlation">
+            <h2>Compute Correlation</h2>
+            <div class="new">
+                <label for="security1">Enter Security 1:</label>
+                <input type="text" id="security1" name="security1">
+                <br>
+                <br>
+                <label for="security2">Enter Security 2:</label>
+                <input type="text" id="security2" name="security2">
+                <br><br>
+                <button class="result" onclick="calculateCorrelation()">Calculate Correlation</button>
+                <p class="answer">Correlation: <span id="correlationResult"></span></p>
+            </div>
+        </div>
+        <hr>
+        <div class="formula">
+            <p>Calculation of Correlation : </p>
+            <p> The correlation between two securities is calculated using the Pearson correlation coefficient formula.
+                The Pearson correlation coefficient, denoted by "r," is a measure of the linear relationship between two
+                variables. In this case, the two variables are the returns of two securities.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
